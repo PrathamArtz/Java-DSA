@@ -33,6 +33,7 @@ public class Stacks {
 
         System.out.println(stack);
 
+        System.out.println("pop Method");
         stack.pop();                        // "pop" - Removes the object at the top of this stack and returns that object as the value of this function
 
         System.out.println(stack);
@@ -41,5 +42,6 @@ public class Stacks {
         System.out.println(stack);
 
         System.out.println(stack.search("Zoro"));  // search the items form the stack.
+        System.out.println();
     }
 }
