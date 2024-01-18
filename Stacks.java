@@ -19,7 +19,7 @@ public class Stacks {
 
         Stack<String> stack = new Stack<String>();
 
-
+        System.out.println("empty method - Tests if this stack is empty.");
         System.out.println(stack.empty());  // Tests if this stack is empty.
 
         stack.push("Luffy");  // "push" Pushes an item onto the top of this stack.
@@ -28,18 +28,22 @@ public class Stacks {
         stack.push("Naruto");
         stack.push("Sasuke");
         stack.push("Kakashi");
-
+        System.out.println(" ");
+        System.out.println("empty method - Tests if this stack is empty.");
         System.out.println(stack.empty());  // Tests if this stack is empty.
-
+        System.out.println();
         System.out.println(stack);
-
-        System.out.println("pop Method");
+        System.out.println();
+        System.out.println("pop Method - Removes the object at the top of this stack and returns that object as the value of this function");
         stack.pop();                        // "pop" - Removes the object at the top of this stack and returns that object as the value of this function
 
         System.out.println(stack);
 
-        System.out.println(stack.peek());   // "peek" Looks at the object at the top of this stack without removing it from the stack.
+        System.out.println(stack.peek() + "\"peek\" Looks at the object at the top of this stack without removing it from the stack.");   // "peek" Looks at the object at the top of this stack without removing it from the stack.
+
+        System.out.println();
         System.out.println(stack);
+
 
         System.out.println(stack.search("Zoro"));  // search the items form the stack.
         System.out.println();

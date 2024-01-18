@@ -10,8 +10,8 @@ public class linkedList {
 
 //                                           Singly Linked List
 //
-//                            Node                Node                   Node
-//                       [data | address] -> [data | address] -> [data | address]
+//                             Node                Node                   Node
+//                        [data | address] -> [data | address] -> [data | address]
 //
 //                                           Doubly Linked List
 //
