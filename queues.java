@@ -37,8 +37,12 @@ public class queues {
 
         System.out.println(queue.peek());
         queue.poll();
+        queue.add("pp");
         System.out.println(queue.peek());
         System.out.println(queue);
+        queue.poll();
+        System.out.println(queue);
+
 
     }
 }
